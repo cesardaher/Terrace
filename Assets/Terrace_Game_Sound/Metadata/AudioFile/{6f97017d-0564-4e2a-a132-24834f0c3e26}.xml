@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{6f97017d-0564-4e2a-a132-24834f0c3e26}">
+		<property name="assetPath">
+			<value>Evening 2.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>130.72834467120182</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3b3eacd5-0de5-4bb1-a8fc-4c7b50feec90}</destination>
+		</relationship>
+	</object>
+</objects>

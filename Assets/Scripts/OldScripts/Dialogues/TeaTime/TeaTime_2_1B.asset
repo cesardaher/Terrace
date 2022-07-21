@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb8f5401465a3c49b1f212632089b67, type: 3}
+  m_Name: TeaTime_2_1B
+  m_EditorClassIdentifier: 
+  dialogueInfo:
+  - player: 1
+    name: 
+    text: I was busy with work.
+  - player: 0
+    name: Friend
+    text: 'Really? '
+  - player: 0
+    name: Friend
+    text: Then what is keeping you here?
+  questionText: Then what is keeping you here?
+  player: 0
+  optionsInfo:
+  - buttonName: Maybe the memories.
+    comment: A
+    nextDialogue: {fileID: 11400000, guid: 7d89aac1f570b544a87252a2251772d9, type: 2}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - buttonName: Nothing really...
+    comment: B
+    nextDialogue: {fileID: 11400000, guid: d5004578f6f960c44bd3275464041cf6, type: 2}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - buttonName: I feel guilty.
+    comment: C
+    nextDialogue: {fileID: 11400000, guid: d607ccf115521d0488f3dae7c4dee77e, type: 2}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls: []

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/Old/TestingScenes/SamplePathfinder.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/Scenes/Old/TestingScenes/SampleRegular.unity
+    guid: 45efe57d09f1b8040b30a4dc14813bad
+  - enabled: 0
+    path: Assets/Scenes/Old/Prototype.unity
+    guid: 663787eceec5fcf45b7dac3956895648
+  - enabled: 0
+    path: Assets/Scenes/Old/Prototype 2.1.unity
+    guid: 720b768392a8a0b45a854a7d710d5954
+  - enabled: 0
+    path: Assets/Scenes/Old/Prototype 2.3.unity
+    guid: 49374bd0760c8b24cb45b6b27f45543f
+  - enabled: 0
+    path: Assets/Scenes/Old/TitleScreen.unity
+    guid: f7b1a9ee11f666e43b24241c2ea0cef1
+  - enabled: 0
+    path: Assets/Scenes/Old/MAIN SCENE.unity
+    guid: 525973693be56a04eb5d3b0213ecb174
+  - enabled: 1
+    path: Assets/Scenes/Entry.unity
+    guid: 475ca26f87632b34e8f38cdc84103648
+  - enabled: 1
+    path: Assets/Scenes/Terrace.unity
+    guid: 820e6a7ca31310042b58bfaecf18a1cd
+  - enabled: 0
+    path: Assets/Scenes/Experiment/Inventory.unity
+    guid: 00fa9e6383bc95a44996690342ef0666
+  - enabled: 0
+    path: Assets/Scenes/Old/NodeTest.unity
+    guid: ef48ce383d502aa4c887d242b19b45b4
+  m_configObjects: {}

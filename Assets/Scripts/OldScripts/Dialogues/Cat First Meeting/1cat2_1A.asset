@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb8f5401465a3c49b1f212632089b67, type: 3}
+  m_Name: 1cat2_1A
+  m_EditorClassIdentifier: 
+  dialogueInfo:
+  - player: 1
+    name: 
+    text: Oh, hello! Who are you, little guy?
+  - player: 0
+    name: Cat
+    text: Meeeow ~
+  questionText: Meeeow ~
+  player: 0
+  optionsInfo:
+  - buttonName: Happy to meet
+    comment: A
+    nextDialogue: {fileID: 11400000, guid: 095a29d8f8fb46c4f8f1521011baa2ad, type: 2}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - buttonName: Nice name
+    comment: B
+    nextDialogue: {fileID: 11400000, guid: ca968aef44a1d7b45a4f5a4774514a22, type: 2}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - buttonName: Meow
+    comment: C
+    nextDialogue: {fileID: 11400000, guid: 6f4fe95f1a10f104bbd82f8f7c6d0f84, type: 2}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls: []

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb8f5401465a3c49b1f212632089b67, type: 3}
+  m_Name: TeaTime_2_1A
+  m_EditorClassIdentifier: 
+  dialogueInfo:
+  - player: 1
+    name: 
+    text: Yes I wanted to leave, but something is still keeping me here.
+  - player: 0
+    name: Friend
+    text: 'Seems like this place still holds a lot of memories for you. '
+  - player: 0
+    name: Friend
+    text: Even though it has changed a lot since she's gone.
+  questionText: Even though it has changed a lot since she's gone.
+  player: 0
+  optionsInfo:
+  - buttonName: This place changed so much.
+    comment: A
+    nextDialogue: {fileID: 11400000, guid: 862b26fa427b0d9449d0248776933ff0, type: 2}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - buttonName: "I don\u2019t know what to do."
+    comment: B
+    nextDialogue: {fileID: 11400000, guid: 4b7fca10a092ff1488a417e942e8e863, type: 2}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - buttonName: I should sell the house.
+    comment: C
+    nextDialogue: {fileID: 11400000, guid: 210e02d5db2eaa149b56c94ce34e295e, type: 2}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls: []

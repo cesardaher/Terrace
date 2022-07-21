@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Key
+  - Interactable
+  - Slot
+  - InventorySlot
+  - Pot
+  - Character
+  - Dead Plant
+  - Plant
+  - Door
+  - Chair
+  - Hanger
+  - Dryable
+  - Diary
+  - Collectible
+  - Cat
+  - Candle
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Obstacle
+  - Player
+  - 
+  - Particle
+  - Postprocessing
+  - Object UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2983652701
+    locked: 0
+  - name: Player
+    uniqueID: 1369278709
+    locked: 0
+  - name: Foreground
+    uniqueID: 1625533293
+    locked: 0

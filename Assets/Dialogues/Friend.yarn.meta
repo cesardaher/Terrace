@@ -1,0 +1,59 @@
+fileFormatVersion: 2
+guid: 7ebd0cde3cc963946b1ac0a720d8512f
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - Friend-Girlfriend.Start-0
+  - Friend-Girlfriend.Start-1
+  - Friend-Girlfriend.Start-2
+  - Friend-Girlfriend.Start-3
+  - Friend-Girlfriend.Start-4
+  - Friend-Girlfriend.Start-5
+  - Friend-Girlfriend.Start-6
+  - Friend-Girlfriend.Start-7
+  - Friend-Girlfriend.Start-8
+  - Friend-Girlfriend.Start-9
+  - Friend-Girlfriend.Start-10
+  - Friend-Girlfriend.Start-11
+  - Friend-Girlfriend.Start-12
+  - Friend-Girlfriend.Start-13
+  - Friend-Girlfriend.Start-14
+  - Friend-Girlfriend.Start-15
+  - Friend-Girlfriend.Start-16
+  - Friend-Girlfriend.Start-17
+  - Friend-Girlfriend.Start-18
+  - Friend-Girlfriend.Start-19
+  - Friend-Girlfriend.Start-20
+  - Friend-Girlfriend.Start-21
+  - Friend-Girlfriend.Tea-22
+  - Friend-Girlfriend.Tea-23
+  - Friend-Girlfriend.Tea-24
+  - Friend-Girlfriend.Tea-25
+  - Friend-Girlfriend.Tea-26
+  - Friend-Girlfriend.Tea-27
+  - Friend-Girlfriend.Tea-28
+  - Friend-Girlfriend.Tea-29
+  - Friend-Girlfriend.Tea-30
+  - Friend-Girlfriend.Tea-31
+  - Friend-Girlfriend.Tea-32
+  - Friend-Girlfriend.Tea-33
+  - Friend-Girlfriend.Tea-34
+  - Friend-Girlfriend.Tea-35
+  - Friend-Girlfriend.Tea-36
+  - Friend-Girlfriend.Tea-37
+  - Friend-Girlfriend.Tea-38
+  - Friend-Girlfriend.Tea-39
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: The node '1. Dialogue Girlfriend' contains illegal characters
+    in its title.
+  baseLanguage: {fileID: 7128917941130120860, guid: 7ebd0cde3cc963946b1ac0a720d8512f,
+    type: 3}
+  localizations: []

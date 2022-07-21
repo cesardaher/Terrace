@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: ee784b0b691807e488ec44af6b58fcc4
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: pt-BR
+  stringIDs:
+  - Pot-Pot.Start-0
+  - Pot-Pot.Start-1
+  - Pot-Pot.Start-2
+  - Pot-Pot.Start-3
+  - Pot-Pot.Start-4
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: ee784b0b691807e488ec44af6b58fcc4,
+    type: 3}
+  localizations: []

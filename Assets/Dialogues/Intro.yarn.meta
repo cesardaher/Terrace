@@ -1,0 +1,39 @@
+fileFormatVersion: 2
+guid: a7ddbceb1f763b24fadd5c520e3fa9d4
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: pt-BR
+  stringIDs:
+  - Intro-Intro-0
+  - Intro-Intro-1
+  - Intro-Intro-2
+  - Intro-Intro-3
+  - Intro-Intro-4
+  - Intro-Intro-5
+  - Intro-Intro-6
+  - Intro-Plank-7
+  - Intro-Plank-8
+  - Intro-Birds-9
+  - Intro-Birds-10
+  - Intro-Birds-11
+  - Intro-Birds-12
+  - Intro-Birds-13
+  - Intro-Birds-14
+  - Intro-Birds-15
+  - Intro-Birds-16
+  - Intro-Birds-17
+  - Intro-Birds-18
+  - Intro-Birds-19
+  - Intro-Birds-20
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: a7ddbceb1f763b24fadd5c520e3fa9d4,
+    type: 3}
+  localizations: []

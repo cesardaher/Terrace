@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb8f5401465a3c49b1f212632089b67, type: 3}
+  m_Name: 1cat2_1B
+  m_EditorClassIdentifier: 
+  dialogueInfo:
+  - player: 1
+    name: 
+    text: SHH! Get off my terrace!
+  - player: 0
+    name: Cat
+    text: Meooow?!!
+  questionText: Meooow?!!
+  player: 0
+  optionsInfo:
+  - buttonName: Sorry
+    comment: A
+    nextDialogue: {fileID: 11400000, guid: 70338bc3ab1473c47915cc8691591b89, type: 2}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - buttonName: Leave!
+    comment: B
+    nextDialogue: {fileID: 11400000, guid: 6506063d81a2c2a4baf8b94f57454069, type: 2}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - buttonName: Meow
+    comment: C
+    nextDialogue: {fileID: 11400000, guid: b59dde5fe7bd7e54faa380ff586a418d, type: 2}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls: []

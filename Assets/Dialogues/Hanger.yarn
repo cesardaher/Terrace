@@ -1,0 +1,69 @@
+title: Hanger.CanDry
+tags: 
+colorID: 0
+position: -201,-465
+---
+// clothes line is empty and player has plants available to dry
+You: This clothes line seems perfect to dry herbs!
+
+//this line only appears if player has valerian
+-> Hang valerian. <<if hasPlant("valerian") == true>>
+    << dryPlant valerian>>
+    You: Now I just have to be patient for a while. I should check it soon.
+
+//this line only appears if player has peppermint
+-> Hang peppermint. <<if hasPlant("mint") == true>>
+    << dryPlant mint>> 
+    You: Now I just have to be patient for a while. I should check it soon.
+
+->Leave it.
+    You: I'm sure there will be a better moment.
+    << close>>
+===
+title: Hanger.CantDry
+tags: 
+colorID: 0
+position: -419,-459
+---
+// clothes line is empty and player has no plants to dry
+You: Perhaps I can find something to make use of it.
+===
+title: Hanger.Mint.Ready
+tags: 
+colorID: 0
+position: 759,-444
+---
+// clothes line has mint on it, and it's already dry
+You: Finally! The leaves are completely dry and ready to be harvested.
+->Harvest the mint.
+    You: I think I've already got a great idea what to do with it.
+    <<getPlant 6>>
+->Leave the mint.
+    You: It's been there for so long. A little bit longer won't do any harm.
+===
+title: Hanger.NotReady
+tags: 
+colorID: 0
+position: 146,-470
+---
+// clothes line has a plant on it, but it's still not dry
+You: It's still feeling very squashy. 
+You: They aren't dry enough yet, I have to wait a little bit more.
+===
+title: Hanger.Valerian.Ready
+tags: 
+colorID: 0
+position: 155,-251
+---
+// clothes line has valerian on it, and it's already dry
+You: Finally! The root is completely dry.
+You: I don't mind leaving it hanging there and having the lovely scent around me.
+===
+title: Hanger.Mint.LeaveIt
+tags: 
+colorID: 0
+position: 759,-232
+---
+// clothes line has mint on it, and it's already dry
+You: I don't mind leaving it hanging there and having the lovely scent around me.
+===

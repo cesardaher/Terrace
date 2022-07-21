@@ -1,0 +1,14 @@
+title: Door.Start
+tags: 
+colorID: 0
+position: 279,-107
+---
+<<close>>
+<< wait 1>> 
+You: Should I go inside and come back later?
+-> Yes.
+    <<close>> 
+    <<passTime>>
+-> No.
+    You: I'll hang around a bit longer.
+===

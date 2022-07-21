@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bc02d773e69f054dad776a48a2c853b, type: 3}
+  m_Name: 1cat1B2C_END
+  m_EditorClassIdentifier: 
+  dialogueInfo:
+  - player: 1
+    name: 
+    text: Meoooooow!!
+  - player: 0
+    name: Cat
+    text: Meow. [sad]
+  - player: 1
+    name: 
+    text: "Sorry, I just don\u2018t like cats."
+  - player: 0
+    name: Cat
+    text: Meow? Meow?
+  - player: 1
+    name: 
+    text: I don't understand you!
+  - player: 0
+    name: Cat
+    text: Meow... [staring intently]

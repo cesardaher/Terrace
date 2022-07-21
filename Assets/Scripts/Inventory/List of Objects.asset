@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da78290e27aa93a41b9f73a2d0a27041, type: 3}
+  m_Name: List of Objects
+  m_EditorClassIdentifier: 
+  seeds:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 1c61bf954c46aeb4e878a422d22c0ad7, type: 2}
+  - {fileID: 11400000, guid: 034e6bad6d3ebe74092ae3cee9166b84, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: bb8bc41e6476baf4da14f46bf0eacb48, type: 2}
+  plants:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 59e9fba73a2389c47a65e39e58b9a993, type: 2}
+  - {fileID: 11400000, guid: c666a81b2b63cd742a58148997547752, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 7d6811cb1c6680842b144c20a480e1df, type: 2}
+  tools:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 59e9fba73a2389c47a65e39e58b9a993, type: 2}
+  - {fileID: 11400000, guid: c666a81b2b63cd742a58148997547752, type: 2}
+  plantObjects:
+  - {fileID: 0}
+  - {fileID: 481559745161503263, guid: b7a829ce92d9e774585ac66c0136e5be, type: 3}
+  - {fileID: 2159376524590170787, guid: 931f7afac91649944999b4f6599c476c, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 2159376524590170787, guid: 931f7afac91649944999b4f6599c476c, type: 3}
+  dryablePlants:
+  - {fileID: 0}
+  - {fileID: 8378788997491772141, guid: 8f6651f8d27c83040ae78dc0f7cfb604, type: 3}
+  - {fileID: 2573538854371215798, guid: e1cd31bedad7fb04ba65c876687a256d, type: 3}

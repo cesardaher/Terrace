@@ -1,0 +1,99 @@
+title: Intro.Intro
+tags: 
+colorID: 0
+position: 33,-922
+---
+<< close>> 
+<< cutscene on>> 
+<<zoomIn>>
+<< wait 2>> 
+You: I feel like a plant. A plant whose roots have been cut. 
+And now I am neither sure where I belong nor how to continue growing. 
+You: Maybe she has even been my roots all along. 
+You: I do not know. I feel confused. Confused, tired and cold. 
+You: It is the best for me to go to bed now, tomorrow is another day. I am missing you.
+<<close>> 
+<<wait 1>> 
+
+<<getUp>>
+<<wait 1.5>> 
+
+<<move starterPos>>
+<<zoomOut>>
+<<wait 1.5>>
+
+<< passTime>> 
+You: What a night, ugh. But the fresh air helps, as always. 
+<< close>> 
+<< flipChar>>
+<< wait 1>>
+
+You: Oh, I must have forgotten my diary out here. I hope it survived the rain unscathed.
+
+<< close>>
+<< showDiary>> 
+<< cutscene off>> 
+//start tutorial
+===
+title: Intro.Plank
+tags: 
+colorID: 6
+position: 29,-687
+---
+<< cutscene on>> 
+<< close>> 
+<< wait 1>> 
+You: This place has turned into a mess. However, it feels so familiar.
+You: I remember helping her watering the plants, painting the walls or feeding the birds. 
+You: We really turned these few square meters into a paradise. 
+You: Even though now it seems unimaginable. Ouch.
+<< close>>
+<< showSparrows>> 
+<<normalZoom>>
+<< cutscene off>>
+===
+title: Intro.Sparrows
+tags: 
+colorID: 0
+position: 17,-467
+---
+You: Hey my little fellows. 
+You: I am sorry to disappoint you, but I do not have anything I could offer you...
+Birds: Chirp, chirp.
+-> Whistle
+    You: She always used to whistle this melody. Birds from all around were singing along with her.
+    << close>> 
+    << wait 3>>
+    << flyAway>> 
+    << wait 2>> 
+    You: Oh, never mind, I do not take it personal, I know that I am a great whistler.
+-> Get closer
+    You: You guys here are so much more trusting than in the cities. That’s truly magical.
+    << close>> 
+    << wait 3>>
+    << flyAway>> 
+    << wait 2>> 
+    You: Oh, never mind. I do not take it personal. That was a compliment, by the way, I did not mean to offend you.
+
+You: I really admire their ability to fly away as soon as things get overwhelming.
+You: Hey, I think you forgot something! Or maybe you want to give something to me?
+
+You: What are the chances! This has to mean something. 
+You: Perhaps it can be a new start for this place here. Hm, I should take a closer look at this environment.
+<< close>>
+
+<< wait 1.5>>
+<< zoomOut>> 
+<< fadeTitle 1.5>>
+<< normalZoom>> 
+//zoom full out
+//title screen
+//play theme
+===
+title: Intro.Diary
+tags: 
+colorID: 0
+position: -720,-703
+---
+You: It looks like my diary is
+===

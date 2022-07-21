@@ -1,0 +1,82 @@
+title: Cat.Start
+tags: 
+colorID: 0
+position: 1179,554
+---
+// After the valerian is fully grown, a black cat appears on the terrace. After entering the terrace, you have a dialogue with her
+
+You: Aw! Look at you. What a surprise. Where are you coming from?
+Cat: Meow.
+-> Meow?
+    You: Me- Meow?
+    Cat: Meow?
+-> Meow!
+    You: Meow! Meow!
+    Cat: Meow?
+You: Hm. Either I don’t understand you, or you just told me that you are the one who is not understanding me.
+<<close>>
+<<wait 1.5>>
+You: Wait a second. You seem quite familiar to me. We’ve already met before, haven’t me?
+Cat: Meow… 
+You: Telling by the way you are staring at me, I assume I am right and you do know me, as well.
+Cat: Meow. Meow!
+-> Excuse me?
+    You: Could you repeat that once again for me? I didn’t get that, sorry.
+-> What’s the point in this?
+    You: As if I could ever understand you. Maybe I should rather do something else. 
+    You: Sometimes, that is the best way to suddenly remember something.
+Cat: M-e-o-w. Meow!
+You: Wait! I knew it! Kiki, it’s you! But why are you still here? Above all: How?
+Cat: *Purrs*. 
+You: I really didn’t expect to see you. That’s so great to have you here again. However, I am so sorry. 
+You: I will be the only one keeping you company from now on. I don’t know if you’ve heard of it, but… 
+Cat: Meow.
+You: Thank you. You know, I was really missing you.
+Cat: I missed you, too.
+You: That is nice to hear. From now on, I will be around here more often and - Wait, what did you just say?
+Cat: Meow?
+You: Hm, okay. For a moment, I… Anyways. Nice to have you around.
+Cat: Meow!
+
+<<close>>
+<<normalZoom>>
+===
+title: Cat.Return
+tags: 
+colorID: 0
+position: 1533,634
+---
+// On the next day, after harvesting the Valerian and hanging it on the rope to let it dry, she sits there again and they have another dialogue.
+
+You: Good morning, Kiki! I hope you had a great night.
+Cat: Meow. Meow?
+You: I had a very good night, as well, thank you. Let’s see what this day has to offer.
+Cat:  Meow!
+// Kiki steps aside, showing the character a mysterious seed that she has found somewhere. 
+<<close>>
+<<showCatSeed 1.5>>
+<<wait 0.5>>
+You: What is this? I have never seen a seed which rudimentarily resembles this one. 
+You: I have no idea how to take care of it. Apart from that, I really have no clue about what will grow out of it.
+Cat: Meow!
+<<close>>
+<<hideCatSeed 1.5>>
+<<getSeed 5>>
+You: I will see whether I can find a special spot for it. Thank you very much, I appreciate that. It really feels unique.
+Cat: *Purrs*.
+
+// Every day from now on, the cat appears somewhere on the terrace. Every time of the day somewhere else (so that is not too predictable).
+<<close>>
+<<normalZoom>>
+===
+title: Cat.Normal
+tags: 
+colorID: 0
+position: 766,411
+---
+You: Hi.
+Cat: Meoooow.
+
+<<close>>
+<<normalZoom>>
+===

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f82a9716e79f9c46a7402b8f4111ec8, type: 3}
+  m_Name: 3_3_Pot
+  m_EditorClassIdentifier: 
+  objType: 3
+  objectId: 3
+  objectIcon: {fileID: 21300000, guid: e073a0723de46594f88f52654bb861d7, type: 3}
+  objectImage: {fileID: 21300000, guid: e073a0723de46594f88f52654bb861d7, type: 3}
+  objectName: Pot
+  objectInfo: A sturdy pot for your plants.

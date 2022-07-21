@@ -1,0 +1,7 @@
+﻿Credits:
+A*;
+Brackeys
+YouContributeGames = pathmovement
+Dev!Bird = dialogue and layering
+Blackthornprod = inventory;
+

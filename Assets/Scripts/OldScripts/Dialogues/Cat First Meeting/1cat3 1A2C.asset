@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb8f5401465a3c49b1f212632089b67, type: 3}
+  m_Name: 1cat3 1A2C
+  m_EditorClassIdentifier: 
+  dialogueInfo:
+  - player: 1
+    name: 
+    text: Meow.
+  - player: 0
+    name: Cat
+    text: purrrr ~
+  - player: 0
+    name: Cat
+    text: Meow meow?
+  questionText: Meow meow?
+  player: 0
+  optionsInfo:
+  - buttonName: Cute
+    comment: A
+    nextDialogue: {fileID: 11400000, guid: 0086ff315c223684f92a9160c80600a7, type: 2}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - buttonName: Don't understand
+    comment: B
+    nextDialogue: {fileID: 11400000, guid: fcb6342266632834b915d859a82d7f15, type: 2}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - buttonName: Meow
+    comment: C
+    nextDialogue: {fileID: 11400000, guid: f884d6e1fa220974c9e9452bbf0f89fa, type: 2}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls: []

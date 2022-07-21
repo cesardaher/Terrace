@@ -1,0 +1,85 @@
+title: Girlfriend.Start
+tags: 
+colorID: 8
+position: -636,-387
+---
+// After harvesting the plant, you need to let it dry. The next day you can harvest it. The following morning, right after you enter the terrace, the girlfriend is coming over for a visit.
+//The girlfriend enters from the left and stands there as she sees the character.
+Girlfriend: Hey! Over here.
+You: What a surprise. I really did not expect to see you.
+<<close>>
+<<move friendChatPos>>
+Girlfriend: Me too, to be honest. I wasn’t sure to meet you here. 
+Girlfriend: But after what happened, I wanted to let you know how sorry I am, truly.
+You: Thank you, that’s really sweet of you.
+Girlfriend: I hope I haven’t interrupted you by coming over spontaneously.
+-> No, not at all!
+    You: I am glad to see a familiar face, it’s been a very long time.
+    Girlfriend: Ah, I am glad to hear that. I wasn’t sure if I should come or not.
+    You: I am always happy to see you! Even though we haven’t seen each other so often lately.
+    Girlfriend: Yes, that’s true. However, it is nice to feel that it is not a reason for us to grow apart.
+    You: You’re right! On that note: Would you like to stay for some tea? I just planted my own tea leaves.
+    Girlfriend: Oh wow, you did? That’s sweet of you, yes please.
+    You: Great.
+//Both walk towards the house and it fades into black.
+-> Well...
+    You: I don’t want to be rude, but I think I prefer to be alone right now. It’s been quite a week.
+    Girlfriend: Sure! Oh gosh, I am so sorry. I should have called you before coming. 
+    Girlfriend: Maybe another time? As you want, please don’t feel obliged.
+    You: Don’t worry, I don’t. It’s just difficult right now. I just feel overwhelmed.
+    Girlfriend: I understand that! If you need anything, let me know!                            
+    You: You know, I changed my mind. It would be really nice if you could stay for a while, if you have the time, I mean.
+    Girlfriend: Sure! Yes, sure. I would like that.
+    You: I will boil some water to make us a mint tea.
+    Girlfriend: That’s sweet of you, thanks.
+<<close>> 
+<<wait 0.5>> 
+<<move starterPos>>
+<<wait 1.5>>
+<<fadeOut>>
+
+[[Girlfriend.Tea]]
+//Both walk towards the house and it fades into black. 
+//The scenery appears again. It is still daylight. They both sit at the table on the terrace. The tea is placed on the table and still warm and therefore steaming.
+===
+title: Girlfriend.Tea
+tags: 
+colorID: 0
+position: -1138,-480
+---
+<<prepareTea>>
+<<wait 1.5>>
+<<fadeIn>>
+You: It’s strange. Sitting outside on the terrace, knowing that she is not around. 
+You: That she is not going to join and drink her tea or checking for all the plants and flowers.
+Girlfriend: I know. But because of these memories that you’ve collected and that you are keeping alive,
+Girlfriend: in a way she will always be around and never be gone completely.
+You: To me, this seems hard to believe. 
+You: There is a huge difference between having someone next to you and having someone in your mind.
+Girlfriend: You’re right. Sure! I can only imagine how it must feel for you. 
+Girlfriend: But is this difference really that huge? Relationships can be so much, but in the first place they are a connection. 
+Girlfriend: Like a tie that reaches from one to another.
+You: But ties aren’t unbreakable. 
+Girlfriend: Not if it had been braided so cautiously and strongly like the one that   both of you share.
+You: Even if that’s the case. It has two ends and I am the only one who is left. 
+You: Holding my end of the tie without her holding the other one, will result in disconnection.
+Girlfriend: Who says, you cannot hold them both?
+You: I am not sure where to find the other end right now.
+Girlfriend: That’s fine for now, don’t worry.
+You: But what if it’s gone?
+Girlfriend: The connection that you have shared will not just disappear. 
+Girlfriend: Give yourself a bit of time and I am certain you are going to find it.
+You: How? Where to look for it?
+Girlfriend: Hmm… Why don’t you start to search right here?
+You: You mean on the terrace, outside?
+Girlfriend: Yes! It’s the place you both spent most of the time together. 
+Girlfriend: The more you get in touch with her, the easier it is to find what you’re looking for.
+You: That makes sense. Thank you so much!
+Girlfriend: You’re welcome. Any time. 
+<<close>>
+<<wait 1>>
+<<normalZoom>>
+<< passTime>> 
+
+//Camera zooms out, fades into black.
+===

@@ -1,0 +1,38 @@
+fileFormatVersion: 2
+guid: 2064a7a2dc4a7384db41d59db100c02c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - Hanger-Hanger.CanDry-0
+  - Hanger-Hanger.CanDry-1
+  - Hanger-Hanger.CanDry-2
+  - Hanger-Hanger.CanDry-3
+  - Hanger-Hanger.CanDry-4
+  - Hanger-Hanger.CanDry-5
+  - Hanger-Hanger.CanDry-6
+  - Hanger-Hanger.CantDry-7
+  - Hanger-Hanger.Mint.Ready-8
+  - Hanger-Hanger.Mint.Ready-9
+  - Hanger-Hanger.Mint.Ready-10
+  - Hanger-Hanger.Mint.Ready-11
+  - Hanger-Hanger.Mint.Ready-12
+  - Hanger-Hanger.NotReady-13
+  - Hanger-Hanger.NotReady-14
+  - Hanger-Hanger.Valerian.Ready-15
+  - Hanger-Hanger.Valerian.Ready-16
+  - Hanger-Hanger.Valerian.Ready-17
+  - Hanger-Hanger.Valerian.Ready-18
+  - Hanger-Hanger.Valerian.Ready-19
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 2064a7a2dc4a7384db41d59db100c02c,
+    type: 3}
+  localizations: []

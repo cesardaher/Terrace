@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{5af3956d-c693-4e1c-84ee-4ca982f9055a}">
+		<property name="assetPath">
+			<value>Day Track_Mixed.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>152.68281179138322</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3b3eacd5-0de5-4bb1-a8fc-4c7b50feec90}</destination>
+		</relationship>
+	</object>
+</objects>

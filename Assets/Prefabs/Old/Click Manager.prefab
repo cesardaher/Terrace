@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1974723477620337020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1974723477620337018}
+  - component: {fileID: 951244185694806593}
+  - component: {fileID: 1974723477620337019}
+  - component: {fileID: 1974723477043642934}
+  m_Layer: 0
+  m_Name: Click Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1974723477620337018
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974723477620337020}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &951244185694806593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974723477620337020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64657ef48f45bc640a44956a7e54108f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canClick: 1
+  zoomOut: 0
+  isPaused: 0
+  keyboardMoving: 0
+  isMoving: 0
+  facingRight: 1
+  goToObject: 0
+  inventoryOn: 0
+  hasCollected: 0
+  placeSelect: 0
+  moveSelect: 0
+  dialogRunner: {fileID: 0}
+  inDialogue: 0
+  PauseMenu: {fileID: 0}
+--- !u!114 &1974723477620337019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974723477620337020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93b998d1d58714649adb6428a4ef5cf9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickBounds: {fileID: 0}
+  currentVirtualCamera: {fileID: 0}
+  newVirtualCamera: {fileID: 0}
+  zoomOutVirtualCamera: {fileID: 0}
+  currentCamera: {fileID: 0}
+  zoomCamera: {fileID: 0}
+  zoomOutCamera: {fileID: 0}
+  player: {fileID: 0}
+  playerSprite: {fileID: 0}
+  playerAnimator: {fileID: 0}
+  spawnPos: {x: -5, y: -5, z: -8}
+  targetPos: {x: 0, y: 0}
+  movSpeed: 4
+  pathfinder: {fileID: 0}
+  destination: {fileID: 0}
+  rb: {fileID: 0}
+  nearObjectDistance: 2.5
+  interactedObject: {fileID: 1974723477620337020}
+  slot:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  targetSlot: {fileID: 0}
+  warningTime: 1
+  textBox: {fileID: 0}
+  inventory: {fileID: 0}
+  inventoryCanvas: {fileID: 0}
+  plantMenu: {fileID: 0}
+  Floor1: {fileID: 0}
+  Floor2: {fileID: 0}
+  Floor3: {fileID: 0}
+  leftButton: {fileID: 0}
+  rightButton: {fileID: 0}
+  currentStation: 0
+--- !u!114 &1974723477043642934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974723477620337020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd21f6166eb6f914d9e64294dafc0226, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickManager: {fileID: 1974723477620337019}
+  inventory: {fileID: 0}
+  dialoguePanel: {fileID: 0}

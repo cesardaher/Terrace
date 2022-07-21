@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 670fe5b5d793dd741a282292ad9d1209, type: 3}
+  m_Name: 0_3_MysteriousSeeds
+  m_EditorClassIdentifier: 
+  objType: 0
+  objectId: 5
+  objectIcon: {fileID: 21300000, guid: 757418c21098f2c49aaca6ba84c8ad82, type: 3}
+  objectImage: {fileID: 21300000, guid: 3af06433d3c701f44b1ff98672ab949b, type: 3}
+  objectName: Mysterious Seeds
+  objectInfo: I am not certain what to do with this one. At least not yet.
+  plant: {fileID: 0}

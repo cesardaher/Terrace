@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb8f5401465a3c49b1f212632089b67, type: 3}
+  m_Name: TeaTime_GardeningAB
+  m_EditorClassIdentifier: 
+  dialogueInfo:
+  - player: 1
+    name: 
+    text: "I don\u2019t know what to do with this place."
+  - player: 0
+    name: Friend
+    text: This place used to be so lively...
+  - player: 0
+    name: Friend
+    text: But I saw that you did some gardening.
+  - player: 1
+    name: 
+    text: Yes, I already harvested some mint.
+  - player: 1
+    name: 
+    text: "That\u2018s why I had the idea to invite you for tea.\r"
+  - player: 0
+    name: Friend
+    text: "Doesn\u2018t it feel special to consume something you tended to?"
+  - player: 0
+    name: Friend
+    text: You watched it grow and  finally harvested it with your hands.
+  questionText: "Doesn\u2018t it feel special to consume something you tended to,
+    watched it grow and finally harvested it with your hands."
+  player: 0
+  optionsInfo:
+  - buttonName: It gives me a peaceful feeling.
+    comment: A
+    nextDialogue: {fileID: 11400000, guid: de389a05347c72549b6894b26bfea391, type: 2}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - buttonName: Reminds me of my childhood.
+    comment: B
+    nextDialogue: {fileID: 11400000, guid: 5f2ef00dd5e065d4aa26ef906d23b700, type: 2}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - buttonName: "I don\u2018t know..."
+    comment: C
+    nextDialogue: {fileID: 11400000, guid: 761b6c6ff8531f34ba9d6ffce9291248, type: 2}
+    myEvent:
+      m_PersistentCalls:
+        m_Calls: []

@@ -1,0 +1,65 @@
+title: Pot.Start
+tags: 
+colorID: 7
+position: -550,-722
+---
+<<cutscene on>>
+You: A free space! Should I plant something?
+-> Yes.
+    <<plant>>
+-> No.
+    You: Perhaps, there will be a better moment.
+    <<cutscene off>>
+===
+title: Pot.NoSeeds
+tags: 
+colorID: 0
+position: 293,-794
+---
+// pot is empty, but player has no seeds
+You: As much as I want this place to turn into a green paradise, unfortunately, I don't have any seeds.
+===
+title: Pot.DeadPlant
+tags: 
+colorID: 0
+position: 322,173
+---
+// player is looking at a dead plant, but has no shovel to remove it
+You: Hm, if I only had the shovel. It can't be far from here, but where exactly?
+===
+title: Pot.Seedling
+tags: 
+colorID: 0
+position: 324,-41
+---
+// plant is still a baby and player needs to wait
+You: I heard that talking to plants helps them growing. So, hello, I hope you are doing great.
+===
+title: Pot.CantHarvest
+tags: 
+colorID: 0
+position: 313,-275
+---
+// plant is grown, but has already been harvested
+You: I've already harvested it. I should leave it alone, so it can continue to grow peacefully.
+===
+title: Pot.HasShovel
+tags: 
+colorID: 0
+position: -218,-149
+---
+//player has a shovel and interacts with a overgrown pot.
+You: Now that I have the tools, I can get rid of the dead plants.
+-> Use the shovel.
+//the dead plants are gone.
+    You: Every ending is a new beginning!
+-> Leave it untouched.
+    You: I don't need to rush, there is plenty of time.
+===
+title: Pot.Flipped
+tags: 
+colorID: 0
+position: -282,-779
+---
+You: What a mess...
+===

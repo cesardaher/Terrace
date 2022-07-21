@@ -1,0 +1,36 @@
+fileFormatVersion: 2
+guid: caf432cb2f654494595a8dbd95f6c5ac
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - Chair-Chair.NightThought1-0
+  - Chair-Chair.NightThought1-1
+  - Chair-Chair.NightThought2-2
+  - Chair-Chair.NightThought3-3
+  - Chair-Chair.NightThought3-4
+  - Chair-Chair.NightThought4-5
+  - Chair-Chair.NightThought4-6
+  - Chair-Chair.NightThought5-7
+  - Chair-Chair.NightThought5-8
+  - Chair-Chair.NightThought5-9
+  - Chair-Chair.NightThought6-10
+  - Chair-Chair.NightThought6-11
+  - Chair-Chair.NightThought6-12
+  - Chair-Chair.NightThought6-13
+  - Chair-Chair.NightThought7-14
+  - Chair-Chair.NightThought7-15
+  - Chair-Chair.NightThought7-16
+  - Chair-Chair.NightThought8-17
+  - Chair-Chair.NightThought8-18
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []
